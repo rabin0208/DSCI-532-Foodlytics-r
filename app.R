@@ -91,7 +91,11 @@ server <- function(input, output, session) {
     ggplot(agg, aes(x = count, y = category_1, fill = count)) +
       geom_col() +
       scale_fill_viridis_c(option = "plasma", guide = "none") +
-      labs(x = "Number of restaurants", y = "Cuisine / type") +
+      labs(
+        title = "Restaurant count by cuisine",
+        x = "Number of restaurants",
+        y = "Cuisine / type"
+      ) +
       theme_minimal()
   })
 

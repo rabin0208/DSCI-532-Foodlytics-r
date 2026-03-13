@@ -1,8 +1,10 @@
-# Foodlytics (Shiny for R)
+# Foodlytics
 
-A small Shiny for R version of the Foodlytics dashboard: explore restaurant counts and ratings by city.
+A small Shiny for R version of the Foodlytics dashboard. This dashboard visualizes restaurant quality and type across Canada’s main cities. It is aimed at businesses and entrepreneurs planning to open a new restaurant. The app helps users understand the local restaurant landscape so they can make better decisions about where to open and what type of restaurant to offer.
 
-**Deployed app:** [Add your Posit Connect Cloud URL here]
+![Foodlytics dashboard](img/Dashboard.png)
+
+**Deployed app:** https://rabin-dsci-532-foodlytics-r.share.connect.posit.cloud/
 
 ## Install packages
 
