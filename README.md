@@ -8,8 +8,6 @@ A small R version of the [Foodlytics dashboard in python](https://github.com/UBC
 
 ## Run the application locally
 
-R looks for `app.R` in the **current working directory**. Follow the instructions below to set the correct working directory.
-
 1. Clone the repository and go into the folder project:
 
 ```bash
