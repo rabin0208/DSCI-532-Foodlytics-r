@@ -16,17 +16,15 @@ cd DSCI-532-Foodlytics-r
 ```
 
 
-2. R looks for `app.R` in the **current working directory**. Follow the instructions below to set the correct working directory.
+2. Set the working directory so R can find `app.R`: open `app.R` in RStudio, then go to **Session → Set Working Directory → To Source File Location**.
 
-Open `app.R` in RStudio, then go to **Session → Set Working Directory → To Source File Location**.
-
-3. Install the required packages by running the following command the RStudio console:
+3. Install the required packages by running the following command in the RStudio console:
 
 ```r
 install.packages(c("shiny", "bslib", "ggplot2", "dplyr", "DT", "bsicons", "rsconnect"))
 ```
 
-4. Start the application. Run the following in the terminal of RStudio:
+4. Start the application. Run the following in the RStudio console:
 
 ```r
 shiny::runApp("app.R")
